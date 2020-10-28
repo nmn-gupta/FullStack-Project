@@ -1,11 +1,4 @@
-/*
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-*/
+
 
 .container{
     width: 110px;
@@ -36,8 +29,8 @@ img{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    
-    box-shadow: 0 0 10px rgba(0,0,139,0.7);
+
+    box-shadow: 0 0 10px black;
 
 
 }
@@ -50,7 +43,7 @@ img{
 
 .container:hover .social{
     transition: 0.5s;
-    box-shadow: 0 0 10px rgba(0,0,139,0.7);
+    box-shadow: 0 0 10px black;
 }
 
 .container:hover .social:nth-child(1){
@@ -80,11 +73,11 @@ i{
 
 .social:hover i{
     transform: rotate(360deg);
-    color: rgba(0,0,139,0.7);
+    color: black;
 }
 
 .team{
-    margin-top: 70px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-content: center;
