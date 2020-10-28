@@ -1,11 +1,3 @@
-/*
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-*/
 
 .container{
     width: 110px;
@@ -33,8 +25,8 @@ body{
 
 }
 img{
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0,0,139,0.7);
 
@@ -83,7 +75,7 @@ i{
 }
 
 .team{
-    margin-top: 200px;
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     align-content: center;
