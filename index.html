@@ -98,6 +98,49 @@ color: white;
 color: #565656;
 }
 
+.search-container{
+background: #fff;
+height: 30px;
+border-radius: 30px;
+padding: 10px 20px;
+display: flex;
+margin: 0px 30px 0px 30px;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+transition: 0.85;
+box-shadow: 4px 4px 6px rgba(255,255,255,.3),
+-4px -4px 6px rgba( 116, 125, 136, .2),
+inset -4px -4px 6px 0 rgba(255,255,255,.2),
+inset 4px 4px 6px 0 rgba(0, 0, 0, 2);
+}
+
+.search-container:hover > .search-input{
+width: 200px;
+}
+
+.search-container .search-input{
+background: transparent;
+border: none;
+outline: none;
+width: 0px;
+font-weight: 500;
+font-size: 16px;
+transition: 0.85;
+}
+
+.search-container .search-btn .fas{
+color: #5cbdbb;
+@keyframes hoverShake {
+0% {transform: skew( Odeg, Odeg);}
+25% {transform: skew( 5deg, 5deg);}
+75% {transform: skewl -5deg, -5deg);}
+100% {transform: skew( Odeg, Odeg);}
+}}
+
+.search-container:hover{
+animation: hoverShake 0.15s linear 3;
+}
 
 
 button{
@@ -142,14 +185,17 @@ converter</pre>
 <li><i class="fa fa-user" aria-hidden="true"></i><a href='#login'> login </a> </li>
 
 <!--    search container-->
-    <div style="margin:50px 50px 0px -200px;">
-
-        <button style="outline: none; padding: 8px 20px; border-
-
-radius: 8%; border: 2px solid black;" type="button">Explore
-
-more</button>
+    <div class="search-container">
+        <input type="text" name="search" placeholder="Search..." class="search-input">
+            <a href="#" class="search-btn">
+                <i class="fas fa-search"></i>
+            </a>
     </div>
+
+
+
+
+
 
 </ul>
 </nav>
@@ -160,6 +206,15 @@ more</button>
     <h4 style="margin:10px 0px 0px 290px;"><i>File conversion made easy</i></h4>
 
 <!--            button-->
+             <div style="margin:50px 50px 0px -200px;">
+
+        <button style="outline: none; padding: 8px 20px; border-
+
+radius: 8%; border: 2px solid black;" type="button">Explore
+
+more</button>
+    </div>
+
 
 <!--    Carousel         -->
 
