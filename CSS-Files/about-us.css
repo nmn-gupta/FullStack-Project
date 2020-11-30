@@ -1,17 +1,11 @@
-/*
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-*/
+
 
 .container{
     width: 110px;
     height: 110px;
     border-radius: 50%;
     padding: 120px;
+    padding: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,18 +34,17 @@ img{
     border-radius: 50%;
 /*    margin: 80px;*/
     border: 1.5px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
     box-shadow: 0 0 10px black;
-
-
 }
-
 
 .container:hover .social{
     transition: 0.5s;
     box-shadow: 0 0 10px black;
     background-color: #bedbbb;
-        border: 1px solid black;
-
+    border: 1px solid black;
     color: black;
 }
 
@@ -87,7 +80,11 @@ i{
 
 .team{
     padding-top: 120px;
-/*    margin-top: 80px;*/
+    color: black;
+}
+
+.team{
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     align-content: center;
