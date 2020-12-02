@@ -22,6 +22,7 @@
   }
 
   .cont{
+      margin-top: 200px;
     overflow: hidden;
     position: relative;
     width: 900px;
