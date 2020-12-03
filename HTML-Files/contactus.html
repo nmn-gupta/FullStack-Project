@@ -4,122 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing: border-box;
-        }
-        body{
-height:100vh;
-display: -webkit-box;
-display: -ms-flexbox;
-display: flex;
--webkit-box-pack: center;
--ms-flex-pack: center;
-justify-content: center;
-align-items: center;
-perspective: 1000px;
-transform-style: preserve-3d;
-position:relative;
-background-color:rgb(149, 215, 218);
-font-family: arial;
 
-        }
-        .container{
-            min-width:800px;
-            min-height:400px;
-            border-radius: 20px;
-            position:relative;
-            transition:1.5s ease-in-out;
-            transform-style: preserve-3d;
 
-        }
-        .side{
-            position:absolute;
-            text-align: center;
-            width:100%;
-            height:100%;
-            padding:20px 50px;
-            color:white;
-            transform-style: preserve-3d;
-            backface-visibility: hidden;
-            border-radius:20px;
+        <link rel="icon" type="image/png" sizes="16x16" href="../Images/icon.jpg">
+    <link rel="stylesheet" href="../CSS-Files/header.css">
 
-        }
-        .content{
-            transform:translateZ(70px) scale(0.8);
-            line-height: 1.5em;
-        }
-        .content h1{
-            position:relative;
-            font-size: 20px;
-            font-family:arial;
+    <link rel="stylesheet" href="../CSS-Files/contact.css">
 
-        }
-        .content h1:before{
-            content:"";
-            position:absolute;
-            bottom:-20px;
-            height:3px;
-            background-color:white;
-            width:70px;
-            left:50%;
-            transform:translateX(-50%);
-        }
-        .front{
-z-index:2;
-background-image:url(backg.jpg);
-background-size: cover;
-background-size:100vh;
-color:white;
-        }
-        .back{
-            background-color: #333;
-            transform:rotateY(180deg);
-            z-index:0;
-            padding-top:10px;
-            background-image: none;
-            background-size: cover;
-
-        }
-        .container:hover{
-            transform:rotateY(180deg);
-        }
-        .back h1{
-            margin:0;
-        }
-        form label, form input{
-            display:block;
-        }
-        form input, form textarea{
-         background:transparent;
-         border:0;
-         border-bottom:2px solid white;
-         padding:5px;
-         width:100%;
-         color:white;
-         outline:none;
-
-        }
-        form label{
-            margin:15px 0;
-
-        }
-        form input[type="submit"]{
-            display:block;
-            width:auto;
-            margin:10px auto;
-            padding:5px 10px;
-            border:3px solid white;
-            border-radius:4px;
-            color:white;
-            cursor:pointer;
-
-        }
-        </style>
 </head>
 <body>
+
+<!--
+    <nav class="navbar">
+<pre class="logo"><i>all in one
+converter</i></pre>
+
+
+<ul class="nav-list">
+<li><i class="fa fa-home" aria-hidden="true"></i><a href='../index.html'> home </a> </li>
+<li><i aria-hidden="true" class="fa fa-users"></i><a href='#'> about </a> </li>
+<li><i class="fas fa-file-alt"></i><a href='../HTML-Files/'> services </a> </li>
+<li><i class="fas fa-comment-alt"></i><a href='../HTML-Files/contactus.html'> contact </a> </li>
+<li><i class="fa fa-user" aria-hidden="true"></i><a href='../HTML-Files/loginSignup.html'> login </a> </li>
+
+    search container
+    <div class="search-container">
+        <input type="text" name="search" placeholder="Search..." class="search-input">
+            <a href="#" class="search-btn">
+                <i class="fas fa-search"></i>
+            </a>
+    </div>
+
+</ul>
+</nav>
+-->
     <div class="container">
         <div class="front side">
 <div class="content">
