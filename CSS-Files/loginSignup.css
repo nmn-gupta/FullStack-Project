@@ -1,11 +1,12 @@
-*, *:before, *:after{
-    margin: 0;
-    padding: 0;
+/* *, *:before, *:after{ */
+   * ,*:after{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
   }
 
-  body{
+  /* body{
     width: 100%;
     height: 100vh;
     display: flex;
@@ -13,7 +14,7 @@
     align-items: center;
     background: -webkit-linear-gradient(left, #1607e4, #24a5ef);
     font-family: 'Nunito', sans-serif;
-  }
+  } */
 
   input, button{
     border:none;
@@ -22,19 +23,20 @@
   }
 
   .cont{
-      margin-top: 200px;
+      margin-top: 50px;
     overflow: hidden;
     position: relative;
+     /* top: 50px;  */
+     margin-left: 235px;
     width: 900px;
     height: 550px;
-    background: #fff;
+    background: #f0f0f7;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
   }
 
   .form{
-/*    position: relative;*/
+   position: relative;
     width: 640px;
-    height: 100%;
     padding: 50px 30px;
     -webkit-transition:-webkit-transform 1.2s ease-in-out;
     transition: -webkit-transform 1.2s ease-in-out;
@@ -87,6 +89,7 @@
   .submit{
     margin-top: 40px;
     margin-bottom: 30px;
+    margin-left: 159px;
     text-transform: uppercase;
     font-weight: 600;
     font-family: 'Nunito', sans-serif;
@@ -168,7 +171,7 @@
     top: 0;
     width: 900px;
     height: 100%;
-    background-image: url(images/bg.jpg);
+    background-image: url(../Images/bg.jpg);
     background-size: cover;
     transition: -webkit-transform 1.2s ease-in-out;
     transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
@@ -310,4 +313,8 @@
   .cont.s-signup .sign-up{
     -webkit-transform:translate3d(0, 0, 0);
             transform:translate3d(0, 0, 0);
-  }
+  } 
+  
+
+
+  
