@@ -28,10 +28,10 @@
 
 }
 img{
-    width: 180px;
-    height: 180px;
+    /* width: 180px;
+    height: 180px; */
     border-radius: 50%;
-    border: 1.5px solid black;
+    /* border: 1.5px solid black; */
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -45,6 +45,7 @@ img{
     margin: 10px auto -30px 480px;
 /*    border:1px solid white;*/
     border-radius: 0%;
+    border:none;
     padding-top: 70px;
 }
 
