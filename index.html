@@ -1,104 +1,4 @@
-<!-- <!DOCTYPE html>
-<html>
-<head>
-<title> ALL-IN-ONE-CONVERTER </title>
-<!-- embedding josefin font from google fonts 
-<link href="https://fonts.googleapis.com/css2?
-family=Josefin+Sans&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
-<!--    favicon-
-
-        <link rel="icon" type="image/png" sizes="16x16" href="./Images/icon.jpg">
-
-<!--about-us link
-    <link rel="stylesheet" href="./CSS-Files/header.css">
-    <link rel="stylesheet" href="./CSS-Files/about-us.css">
-
-
-<!--    social-media icons
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
-</head>
-<body>
-<header>
-<nav class="navbar">
-<pre class="logo">all in one
-converter</pre>
-
-
-<ul class="nav-list">
-
-<li><i class="fa fa-home" aria-hidden="true"></i><a href='#'> home </a> </li>
-<li><i aria-hidden="true" class="fa fa-users"></i><a href="./HTML-Files/about-us.html"> about </a> </li>
-<li><i class="fas fa-file-alt"></i><a href='./HTML-Files/services.html'> services </a> </li>
-<li><i class="fas fa-comment-alt"></i><a href='#contact'> contact </a> </li>
-<li><i class="fa fa-user" aria-hidden="true"></i><a href="./HTML-Files/loginSignup.html"> login </a> </li>
-
-<!--    search container
-    <div class="search-container">
-        <input type="text" name="search" placeholder="Search..." class="search-input">
-            <a href="#" class="search-btn">
-                <i class="fas fa-search"></i>
-            </a>
-    </div>
-
-</ul>
-</nav>
-
-    <div class="content">
-    <h2 style="margin:150px 0px 0px 200px;">All-IN-ONE-CONVERTER</h2>
-        <div>
-    <h4 style="margin:10px 0px 0px 290px;"><i>File conversion made easy</i></h4>
-
-<!--            button
-             <div style="margin:50px 50px 0px -200px;">
-
-        <button style="outline: none; padding: 8px 20px; border-
-
-radius: 8%; border: 2px solid black;" type="button">Explore
-
-more</button>
-    </div>
-
-
-<!--    Carousel         
-
-                  <div style="margin-top: -250px;  margin-left: 650px;">
-
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-    <!-- Wrapper for slides 
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="./Images/converter.jpg" alt="Los Angeles" style="border: 2px solid black;width:400px; height: 300px; border-radius: 0%;">
-      </div>
-
-      <div class="item">
-        <img src="./Images/text-to-speech.jpg" alt="Los Angeles" style="border: 2px solid black;width:400px; height: 300px; border-radius: 0%;">
-      </div>
-
-        <div class="item">
-        <img src="./Images/speech-to-text.png" alt="Chicago" style="border: 2px solid black;width:400px; height: 300px;border-radius: 0%;">
-      </div>
-
-      <div class="item">
-        <img src="./Images/pdf-to-images.png" alt="New york" style="border: 2px solid black;width:400px; height: 300px; border-radius: 0%;">
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</header>
-
-</body>
-</html> -->
 
 <!DOCTYPE html>
 <html>
@@ -111,6 +11,8 @@ family=Josefin+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
@@ -132,22 +34,60 @@ family=Josefin+Sans&display=swap" rel="stylesheet">
 
 <!--    social-media icons-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<style>
+    
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+.explore-btn{
+  border-radius: 70px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
 
+.explore-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.explore-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.explore-btn:hover span {
+  padding-right: 25px;
+}
+
+.explore-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
 </head>
 <body>
 <header>
-<nav class="navbar">
-<p class="logomain"><img style="width: 60px;height: 60px;" src="./Images/newLogo.jpg"></p>
-<pre class="logo" >Convertor</pre>
+<nav class="navbar" style="height: 70px;">
+  <p class="logomain"><img style="width: 60px;height: 60px;margin-top: -30px;" src="./Images/newLogo.jpg"></p>
+  <pre class="logo" >Convertor</pre>
 
 
 <ul class="nav-list">
 
-<li><i class="fa fa-home" aria-hidden="true"></i><a href='#'> home </a> </li>
-<li><i aria-hidden="true" class="fa fa-users"></i><a href="./HTML-Files/about-us.html"> about </a> </li>
-<li><i class="fas fa-file-alt"></i><a href='./HTML-Files/services.html'> services </a> </li>
-<li><i class="fas fa-comment-alt"></i><a href='./HTML-Files/contact.html'> contact </a> </li>
-<li><i class="fa fa-user" aria-hidden="true"></i><a href="./HTML-Files/loginSignup.html"> login </a> </li>
+<li><i class="fa fa-home riya" aria-hidden="true"></i><a href='#'> home </a> </li>
+<li><i aria-hidden="true" class="fa fa-users riya"></i><a href="./HTML-Files/about-us.html"> about </a> </li>
+<li><i class="fas fa-file-alt riya"></i><a href='./HTML-Files/services.html'> services </a> </li>
+<li><i class="fas fa-comment-alt riya"></i><a href='./HTML-Files/contact.html'> contact </a> </li>
+<li><i class="fa fa-user riya" aria-hidden="true"></i><a href="./HTML-Files/loginSignup.html"> login </a> </li>
 
 <!--    search container-->
     <div class="search-container">
@@ -161,22 +101,40 @@ family=Josefin+Sans&display=swap" rel="stylesheet">
 </nav>
 
     <div class="content">
-    <h2 style="margin:150px 0px 0px 200px;">All-IN-ONE-CONVERTER</h2>
+        <h4 style="font-family: 'Pacifico', cursive;margin: 30px;font-size: 40px;color: black;">File Conversion made easy</h4>
+    <!-- <h2 style="margin:150px 0px 0px 200px;">All-IN-ONE-CONVERTER</h2> -->
+    <p style="color:black; margin-left: 30px; float: left;width: 420px;text-align: justify;font-family: 'Lobster';font-size: 17px;">
+   As the technology is advancing day by day there is a need of such kind of 
+mechanism which can convert file of one type to the other with ease. As we all 
+know that in student's life, assignments, uploads are usual activities and regarding 
+this they need to upload and sometimes convert file of one type to the other. So 
+they need a convertor which can easily solve their problem. There are lot of apps 
+which can convert one file type to another but they need some storage in the 
+mobile phones. So we designed a website which can just convert all the file types 
+in one go. This interactive and responsive website is student friendly. Also it can 
+be useful to the employees and everyone else who want a quick and efficient way 
+to convert files. So here we present a website beneficial to every group of people.
+    </p>
+   
         <div>
-    <h4 style="margin:10px 0px 0px 290px;"><i>File conversion made easy</i></h4>
+    
 
 <!--            button-->
-             <div style="margin:50px 50px 0px -200px;">
-
-        <button style="outline: none; padding: 8px 20px; border-radius: 8%; border: 2px solid black;" type="button">Explore
-
-more</button>
-    </div>
+            
+ <button style="outline: none; 
+                padding: 5px 20px; 
+                font-size: 20px; 
+                color:  black; 
+                font-weight: bold;
+                border: 2px solid black;
+                margin-top: 100px;margin-left: 50px;
+                font-family: 'Lobster', cursive;" class="explore-btn" type="button"><span>EXPLORE MORE</span></button>
+    
 
 
 <!--    Carousel         -->
 
-                  <div style="margin-top: -250px;  margin-left: 650px;">
+                  <div style="margin-top: -150px;  margin-left: 800px;">
 
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
