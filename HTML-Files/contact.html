@@ -28,6 +28,35 @@ family=Josefin+Sans&display=swap" rel="stylesheet">
 @import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Texturina:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+    /*footer code*/
+.copyright-area{
+  background: black;
+  height: 90px;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 18px;
+  font-family: serif;
+  font-weight: bold;
+  color: white;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu-new li {
+  display: inline-block;
+  margin-left: 40px;
+  font-family: serif;
+  font-weight: bold;
+}
+.footer-menu-new li:hover a{
+  color: #ff5e14;
+}
+.footer-menu-new li a {
+  font-size: 18px;
+  color: #fff;
+}
     
     .contact-shagun{
 height:100vh;
@@ -152,8 +181,8 @@ background-image: linear-gradient(0deg, #D9AFD9 0%,
 <ul class="nav-list">
 <li><i class="fa fa-home" aria-hidden="true"></i><a href='../index.html'> home </a> </li>
 <li><i aria-hidden="true" class="fa fa-users"></i><a href='../HTML-Files/about-us.html'> about </a> </li>
-<li><i class="fas fa-file-alt"></i><a href='#'> services </a> </li>
-<li><i class="fas fa-comment-alt"></i><a href='../HTML-Files/contactus.html'> contact </a> </li>
+<li><i class="fas fa-file-alt"></i><a href='../HTML-Files/services.html'> services </a> </li>
+<li><i class="fas fa-comment-alt"></i><a href='#'> contact </a> </li>
 <li><i class="fa fa-user" aria-hidden="true"></i><a href='../HTML-Files/loginSignup.html'> login </a> </li>
 
 <!--    search container-->
@@ -188,7 +217,28 @@ background-image: linear-gradient(0deg, #D9AFD9 0%,
                 </div> 
             </div>
         </div>
-        
+        <div class="copyright-area" id="abu">
+            <div class="container-new">
+              <div class="row-new">
+                  <div class="col-xl-6 col-lg-6 text-center text-xl-left">
+                      <div class="copyright-text">
+                         <p>Copyright &copy; 2020, All Right Reserved </p>
+                        </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                    <div class="footer-menu-new">
+                        <ul>
+                          <li><a href="../index.html">Home</a></li>
+                            <li><a href="./about-us.html">About</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Policy</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
     </body>
 
 </html>
