@@ -158,7 +158,7 @@ box-sizing: border-box;
 }
 header{
 width: 100vw; height: 100vh;
-background-image: linear-gradient(to right, blue,black);
+background-image: linear-gradient(to left, rgb(0, 140, 255),rgb(10, 33, 240),rgb(102, 182, 235));
 /* background-image: linear-gradient(0deg, #D9AFD9 0%,
 #97D9E1 100%); */
 }
